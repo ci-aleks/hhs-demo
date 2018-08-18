@@ -1,0 +1,17 @@
+{
+	"name": "HSSDataLake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://hssdatalake.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "7e78a931-94e1-4daf-9fd9-b425e024ea02",
+			"subscriptionId": "754186cf-373b-47e4-ae0c-5c30132e6140",
+			"resourceGroupName": "HHS-demo"
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
