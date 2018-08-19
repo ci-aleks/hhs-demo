@@ -1,0 +1,16 @@
+{
+	"name": "HSS_Sql_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=hhs-demo.database.windows.net;Initial Catalog=HSS-DataWarehouse",
+			"servicePrincipalId": "ee9a0c79-d7de-45d3-a418-4c1030890e9a",
+			"servicePrincipalKey": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"tenant": "7e78a931-94e1-4daf-9fd9-b425e024ea02"
+		}
+	}
+}
